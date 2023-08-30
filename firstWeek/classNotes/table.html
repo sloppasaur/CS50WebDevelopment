@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table</title>
+        <style>
+            table {
+                border: 1px solid black;
+                border-collapse: collapse; /* Collapses (combines) the borders */
+            }
+           
+            td, th {
+                border: 1px solid black;
+                padding: 5px;
+            }
+
+            th {
+                text-align: left;
+            }
+
+            td {
+                text-align: center;
+            }
+
+             /*
+            td {
+                border: 1px solid black;
+            }
+
+            th {
+                border: 1px solid black;
+            }
+            */
+        </style>
+    </head>
+    
+    <body>
+        <table>
+            <thead>
+                <tr> <!--Note that the heading is in a single row with "tr"-->
+                    <th>Ocean</th>
+                    <th>Average Depth</th>
+                    <th>Maximum Depth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!--"tr" stands for table row-->
+                    <!--"td" means table data-->
+                    <td>Pacific Ocean</td>
+                    <td>4,280 m</td>
+                    <td>10,911 m</td>
+                </tr>
+                <tr>
+                    <td>Atlantic Ocean</td>
+                    <td>3,646 m</td>
+                    <td>8,486 m</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
