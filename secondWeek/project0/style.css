@@ -4,9 +4,28 @@ html {
 
 #searchbar {
     width: 25%;
+    position: relative;
+    bottom: 100px;
+}
+
+.searchButton {
+    position: relative;
+    bottom: 95px;
+}
+
+.menu {
+    list-style: none;
+    text-align: right;
+}
+
+.menuPoint {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
 }
 
 h1 {
+    position: relative;
     margin: auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 100px;
@@ -14,6 +33,18 @@ h1 {
     text-align: center;
     line-height: 200%;
     padding-top: 175px;
+    bottom: 100px;
+    width: 50%;
+}
+
+h2 {
+    color:rgb(38, 102, 175);
+    position: relative; 
+    text-align: center;
+    left: 430px; 
+    bottom: 182px; 
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
 }
 
 td {

@@ -8,17 +8,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
-        <p>
-            <span style="float: right; padding-left: 5px;"><a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a></span>
-            <span style="float: right"><a href="advancedsearch.html">Advanced Search</a></span>
-        </p>
+        <div>
+            <ul class="menu">
+                <li class="menuPoint"><a style="color: lightblue; text-align: right; display: block;" href="imageSearch.html">Images</a></li>              
+                <li class="menuPoint"><a style="color: lightblue; text-align: right; display: block;" href="advancedsearch.html">Advanced Search</a></li>
+            </ul>
+        </div>
             
         <h1>Google</h1>
         <form style="text-align: center;" action=https://google.com/search>
             <input id="searchbar" type="text" name="q">
             <div>
-                <input type="submit" value="Google Search">
-                <input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" id="lucky" name="btnI" type="submit" data-ved="0ahUKEwiNm6S0jYLrAhXslnIEHYv2B30QnRsIDg">
+                <input class="searchButton" type="submit" value="Google Search">
+                <input class="searchButton" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" id="lucky" name="btnI" type="submit" data-ved="0ahUKEwiNm6S0jYLrAhXslnIEHYv2B30QnRsIDg">
             </div>
         </form>
 
