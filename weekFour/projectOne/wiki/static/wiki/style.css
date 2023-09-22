@@ -1,0 +1,12 @@
+section {
+    background: gray;
+    display: inline-block;
+}
+
+.sidebar {
+    width: 150px;
+}
+
+footer {
+    background: steelblue;
+}

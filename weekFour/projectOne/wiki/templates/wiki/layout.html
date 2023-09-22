@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Wiki</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center">Wiki</h1>
+            <link href="{% static 'wiki/style.css' %}" rel="stylesheet">
+        </header>
+        <section class="sidebar">
+            <h1>Entries</h1>
+            <ul>
+                <li>
+                    This is a link
+                </li>
+                <li>
+                    This is a link
+                </li>
+            </ul>
+        </section>
+        <section>
+            {% block body %}
+
+            {% endblock %}
+        </section>
+        <footer>
+            foot
+        </footer>
+        
+    </body>
+</html>
